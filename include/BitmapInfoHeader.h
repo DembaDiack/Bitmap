@@ -4,7 +4,7 @@
 
 using namespace std;
 
-#pragma pack(2)
+#pragma pack(push,2)
 
 struct BMP_Info_Header
 {
@@ -20,4 +20,6 @@ struct BMP_Info_Header
     int32_t colors{0};
     int32_t iColors{0};
 };
+
+#pragma pack(pop)
 #endif

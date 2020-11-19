@@ -10,5 +10,13 @@ int main()
 
     Bitmap bmp(width,height);
     
+    for(int y = 0; y < height; y++)
+    {
+        for(int x = 0; x < width; x++)
+        {
+            bmp.setPixel(x,y,66,168,50);
+        }
+    }
+
     bmp.write("test.bmp");
 }

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-#pragma pack(2)
+#pragma pack(push,2)
 
 struct BMP_File_Header
 {
@@ -15,5 +15,6 @@ struct BMP_File_Header
     int32_t offset;
 };
 
+#pragma pack(pop)
 
 #endif
