@@ -1,2 +1,2 @@
-# Bitmap
-c++ project to generate a bitmap image from scratch
+# Bitmap 
+teeny tiny program to write a completly black bitmap
